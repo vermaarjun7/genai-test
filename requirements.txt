@@ -1,0 +1,10 @@
+transformers<=4.48.3
+numpy<2
+sentence-transformers
+datasets
+tqdm
+pymilvus
+pandas
+tokenizers
+accelerate
+torch

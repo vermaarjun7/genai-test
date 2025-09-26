@@ -1,12 +1,19 @@
 # Installation Instructions
-```
-# Create conda environment
+
+## Prerequisites
+**Install Milvus Vector Database:**
+```bash
+# Install Milvus using Docker (required for the system to work)
+# Follow the official guide: https://milvus.io/docs/v2.2.x/install_standalone-docker.md
+
+
+## Create conda environment
 conda create -n ml-vector-test python=3.11 -y
 conda activate ml-vector-test
 
-# Install required packages
+## Install required packages
 pip install -r requirements.txt
-```
+
 
 # Code Architecture & Components
 

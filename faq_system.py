@@ -457,25 +457,19 @@ def main():
         df = faq_system.load_faq_data()
         
         # Create collection and ingest data (uncomment if needed)
-        # faq_system.create_collection()
-        # faq_system.ingest_faqs(df)
+        faq_system.create_collection()
+        faq_system.ingest_faqs(df)
         
         # Test queries
         test_queries = [
-            "Can I take this course without any programming background?",
-            "What happens if I'm not satisfied with the bootcamp?",
-            "How much time do I need to dedicate daily?",
-            "Will you help me get a job after completion?",
-            # "What time do you open?",
-            # "I forgot my password, how can I get back into my account?",
-            # "Can I get my money back?",
-            # "How can I contact support?",
-            # "Do you work on weekends?",
-            # "Can I take this course without programming experience?",
-            # "What if I'm not satisfied?",
-            # "How much time do I need daily?",
-            # "What programming languages will I learn?",
-            # "Do you provide certificates?"
+            "What time do you open?",
+            "I forgot my password, how can I get back into my account?",
+            "Can I get my money back?",
+            "How can I contact support?",
+            "Do you work on weekends?",
+            "Can I take this course without programming experience?",
+            "What if I'm not satisfied?",
+            "How much time do I need daily?"
         ]
         
         print("=" * 60)
